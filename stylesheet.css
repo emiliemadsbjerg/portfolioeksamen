@@ -1,0 +1,383 @@
+/* GENERALLE INDSTILLINGER */
+
+.opgavebeskrivelse {
+	text-align: center;
+}
+
+.link {
+	width: 100px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+	font-family: LemonMilklight;
+	color: black;
+	text-decoration: none;
+}
+
+.link2 {
+	width: 200px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+	font-family: LemonMilklight;
+	color: black;
+	text-decoration: none;
+
+}
+
+/* GENERALLE INDSTILLINGER SLUT */
+
+.forside {
+	width: 350px;
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+
+
+
+}
+
+.forside_logo {
+	width: 350px;
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+@media screen and (max-width: 1800px) {
+	.foside_logo {
+		width: 50%;
+
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.foside {
+		width: 30%;
+
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.foside {
+		width: 90%;
+
+	}
+}
+
+
+
+body {
+	border-radius: 1000px;
+
+}
+
+/* HELLO FORSIDE START */
+
+.intro {
+
+	width: 100%;
+	height: auto;
+	text-align: center;
+
+}
+
+@font-face {
+	font-family: LemonMilk;
+	src: url (lemon_milk.otf);
+
+}
+
+.hello_overskrift {
+	font-family: LemonMilk;
+	font-size: 200px;
+	color: #F3CD48;
+	width: 100%;
+	height: 100%;
+
+
+}
+
+@media screen and (max-width: 1200px) {
+	.hello_overskrift {
+		font-size: 200px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.hello_overskrift {
+		font-size: 100px;
+	}
+}
+
+
+
+
+
+/* HELLO FORSIDE SLUT */
+
+/* HEADER MENU START */
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #ffff;
+	top: 0;
+	width: 100%;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+
+
+}
+
+li {
+	float: left;
+	position: sticky;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #F3061A;
+	transition: 0.5s;
+	color: white;
+
+}
+
+/* HEADER MENU SLUT */
+
+
+/* OM MIG */
+
+.overskrift {
+	text-align: center;
+}
+
+.profil {
+	width: 80%;
+	height: auto;
+	margin: 10px;
+	box-sizing: border-box;
+
+}
+
+#profilbillede {
+	width: 300px;
+	height: 300px;
+}
+
+#profiltekst {
+	width: 1000px;
+	height: auto;
+	margin: 10%;
+	text-align: center;
+
+}
+
+
+@media only screen and (max-width:1200px) {
+	.profil {
+		width: 50%
+	}
+
+}
+
+@media only screen and (max-width:600px) {
+	.profil {
+		width: 90%
+	}
+
+}
+
+
+
+/* BILLEDER TIL PROJEKT KNAPPER */
+
+.container {
+	width: 100%;
+	height: auto;
+
+
+
+	/* FLEX-BOX */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+
+
+	/*filter: grayscale(100%)*/
+
+}
+
+.porth1 {
+	font-size: 20px;
+	text-align: center;
+	font-family: LemonMilk;
+	color: #F3061A;
+}
+
+.portofolieflex {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: auto;
+
+}
+
+.portofolieflex a {
+	flex-grow: 1;
+	flex-basis: 300px;
+	overflow: hidden;
+}
+
+.portofolieflex img {
+	width: 300px;
+	height: auto;
+	transition: all 0.5s ease;
+	padding: 10px;
+	filter: grayscale(100%)
+}
+
+
+
+.portofolieflex img:hover {
+	transform: scale(1.04);
+	opacity: 1;
+	filter: grayscale(0%)
+}
+
+.mappe img {
+	opacity: 0.85;
+}
+
+.tekst {
+	font-family: LemonMilklight;
+	font-size: 13px;
+	text-align: center;
+}
+
+
+/* KONTAKT SIDE */
+
+.kontaktbillede {
+	width: 200px;
+	height: 200px;
+
+}
+
+.kontakt_tekst {
+	font-family: LemonMilk;
+	font-size: 2em;
+	text-align: center;
+	color: #F3CD48;
+
+}
+
+
+
+.kontakt_knapper {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: auto;
+	justify-content: center;
+
+
+
+}
+
+.kontakt_knapper img {
+	width: 50px;
+	height: 50px;
+	margin: 50px 10px 10px 10px;
+}
+
+.kontakt_info {
+	text-align: center;
+	font-family: LemonMilklight;
+	font-size: 0.7em;
+
+}
+
+
+/* ART DECO PROJECT START */
+
+
+.artdeco_overskrift {
+	font-family: LemonMilk;
+	font-size: 3em;
+	text-align: center;
+	color: #F3CD48;
+
+}
+
+.underoverskrift {
+	font-family: LemonMilk;
+	font-size: 2em;
+	text-align: center;
+
+
+}
+
+/* ART DECO PROJECT SLUT */
+
+/* PILOT PROJECT START */
+
+.video {
+	width: 320px;
+	height: 240px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+
+
+}
+
+
+/* PILOT PROJECT SLUT */
+
+
+/* INGOLFS KAFFBAR START */
+
+.ingolf_billede {
+	width: 350px;
+	height: 240px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+/* INGOLFS KAFFBAR SLUT */
+
+/* GAME AND STYLETILE */
+
+.startskaerm {
+	height: 200px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+
+
+
+
+/* GAME AND STYLETILE SLUT */

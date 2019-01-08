@@ -1,0 +1,7 @@
+# https://git-scm.com/docs/gitignore
+# https://help.github.com/articles/ignoring-files
+# Example .gitignore files: https://github.com/github/gitignore
+/bower_components/
+/node_modules/
+/02_02_01/pilotprojekt.mp4
+/02_02_01/ingolfs.mp4
