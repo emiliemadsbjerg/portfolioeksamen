@@ -89,7 +89,7 @@ body {
 
 @font-face {
 	font-family: LemonMilk;
-	src: url (lemon_milk.otf);
+
 
 }
 
@@ -128,7 +128,6 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #ffff;
 	top: 0;
 	width: 100%;
 	position: -webkit-sticky;
@@ -394,6 +393,8 @@ li a:hover {
 
 .webprototype {
 	align-items: center;
-	height: 700px;
-	width: 380px;
+	height: 400px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
 }
